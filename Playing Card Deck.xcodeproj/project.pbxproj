@@ -12,6 +12,8 @@
 		ABF26AEA20AA57FD00063A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF26AE820AA57FD00063A9E /* Main.storyboard */; };
 		ABF26AEC20AA57FE00063A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF26AEB20AA57FE00063A9E /* Assets.xcassets */; };
 		ABF26AEF20AA57FE00063A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF26AED20AA57FE00063A9E /* LaunchScreen.storyboard */; };
+		ABF26AF720AA582F00063A9E /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AF620AA582F00063A9E /* PlayingCardDeck.swift */; };
+		ABF26AF920AA586400063A9E /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AF820AA586300063A9E /* PlayingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ABF26AEB20AA57FE00063A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABF26AEE20AA57FE00063A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABF26AF020AA57FE00063A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF26AF620AA582F00063A9E /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		ABF26AF820AA586300063A9E /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		ABF26AE320AA57FD00063A9E /* Playing Card Deck */ = {
 			isa = PBXGroup;
 			children = (
+				ABF26AF820AA586300063A9E /* PlayingCard.swift */,
+				ABF26AF620AA582F00063A9E /* PlayingCardDeck.swift */,
 				ABF26AE420AA57FD00063A9E /* AppDelegate.swift */,
 				ABF26AE620AA57FD00063A9E /* ViewController.swift */,
 				ABF26AE820AA57FD00063A9E /* Main.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF26AF720AA582F00063A9E /* PlayingCardDeck.swift in Sources */,
 				ABF26AE720AA57FD00063A9E /* ViewController.swift in Sources */,
+				ABF26AF920AA586400063A9E /* PlayingCard.swift in Sources */,
 				ABF26AE520AA57FD00063A9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
